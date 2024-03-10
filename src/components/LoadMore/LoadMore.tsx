@@ -4,7 +4,6 @@ import Image from 'next/image';
 import {useInView} from 'react-intersection-observer';
 import {useEffect, useState} from 'react';
 import {fetchAnime} from '@/app/action';
-import {AnimeCard, AnimeProp} from '@/components';
 
 let page = 2
 
